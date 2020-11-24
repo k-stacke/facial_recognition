@@ -10,17 +10,18 @@ Example sentence:
 
 How to run:
 
-`headshot.py` run to capture images of people you want to be able to recognize.
+1. `python3 headshot.py --name NAMEOFPERSON` run to capture 
+images of people you want to be able to recognize. Repeat for all people.
 
-`encode_images.py` creates encodings of the captured images. 
+2. `python3 encode_images.py` creates encodings of the captured images. 
 These encodings will be used to compare agains when the system is live.
 
-`facial_req.py` use to run the application. If you want one of the detected 
+3. `python3 facial_req.py` use to run the application. If you want one of the detected 
 persons to be allowed, add an excetion with the `--name-exception` flag. 
 This person will be read sentences from `sentences_ok.txt` file. 
 
 
 
-## Acknowledgement
+## Acknowledgments
 This repo is greatly inpired by https://github.com/carolinedunn/facial_recognition,
-and the tutorials 
+and the tutorial https://www.pyimagesearch.com/2018/06/25/raspberry-pi-face-recognition/.
