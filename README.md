@@ -1,4 +1,4 @@
-# Surverillence Camera
+# Surverillence Camera with Raspberry Pi
 
 This "surveillence camera" uses pre-trained haar features to find faces. 
 The detected faces are compared agains dataset of known people. If a match is found,
@@ -21,4 +21,6 @@ This person will be read sentences from `sentences_ok.txt` file.
 
 
 
-
+## Acknowledgement
+This repo is greatly inpired by https://github.com/carolinedunn/facial_recognition,
+and the tutorials 
