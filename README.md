@@ -3,7 +3,7 @@
 This "surveillence camera" uses pre-trained haar features to find faces. 
 The detected faces are compared agains dataset of known people. If a match is found,
 the system will output warning statements, randomly from `sentences_stop.txt`. 
-Use "<name>" as placeholder for the detected person. 
+Use "\<name\>" as placeholder for the detected person. 
 
 Example sentence:
 `"Stop! I see you, <name>!"`
